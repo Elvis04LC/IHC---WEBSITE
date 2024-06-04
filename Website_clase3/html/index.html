@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/estilo1.css">
+  <link rel="stylesheet" href="../css/fonts.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso IHC</title>
+</head>
+<body>
+<nav class="topheader">
+    <ul class="menu-horizontal">
+      <a href="" class="logo"><img  height="60"  width="60" src="../images/img/upclogo.png" alt="Logo de lapagimna web"></a>
+        <li><a href ="#inicio"><span class="icon-home"></span>Inicio</a></li>
+        <li>
+            <a href="#cursos"><span class="icon-book"></span>Curso</a>
+            <ul class="menu-vertical">
+                <li><a href = "#html">HTML</a></li>
+                <li><a href = "#css">CSS</a></li>
+                <li><a href = "#js">JAVA SCRIPT</a></li>
+            </ul>
+        </li>
+        <li><a href="#inscripcion"><span class="icon-address-book"></span>Inscripción</a></li>
+        <li><a href="../html/contacto.html" target="_blank"><span class="icon-clipboard"></span>Contacto</a></li>
+    </ul>
+</nav>
+<div id="inicio">
+  <div class="container_Inicio">
+    <div class="texto_Inicio">
+      <h2>Temas:</h2>
+         <ul>
+           <li>HTML</li>
+           <li>CSS</li>
+          <li>JS</li>
+         </ul>
+    </div>
+  </div>
+</div>
+<div id="borderDemo">
+  <div id="cursos">
+    <div id="html" class="container_Cursos">
+      <div class="container_html">
+      <div class="texto_html">
+        <hr>
+        <h2>HTML</h2>
+        <p>HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript)</p>
+        <video class="video_html" controls>
+          <source src="../videos/html5.mp4" type="video/mp4" alt="Video_html">
+        </video>
+        <h4>Fuente: </h4> <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">HTML</a>
+        <hr>
+      </div>
+    </div>
+      <div id="css"   class="texto_css">
+        <div>
+        <hr>
+        <h2>CSS</h2>
+          <p>CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de los sitios.
+          Se les denomina hojas de estilo «en cascada» porque puedes tener varias y una de ellas con las propiedades heredadas (o «en cascada») de otras.
+          Para muchas personas, una simple plantilla de blog es suficiente. Aun así, cuando quieras personalizar la apariencia de un sitio, necesitarás implementar CSS que, en conjunto con un buen CMS, te ayudará a potenciar el alcance de tu contenido.</p>
+          <h4>Fuente: </h4> <a href="https://blog.hubspot.es/website/que-es-css#que-es" target="_blank">CSS</a>
+        <hr>
+      </div>
+      </div>
+      <div id="js"  class="texto_js">
+        <hr>
+        <h2>JS</h2>
+          <p>JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa (por ejemplo programación funcional). Lee más en acerca de JavaScript.</p>
+          <h4>Fuente: </h4> <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">JAVASCRIPT</a>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="inscripcion">
+  <div class="container_inscripcion">
+    <div class="texto_inscripcion">
+      <center><h1>Formulario de Inscripción </h1></center>
+        <form action="" method="get">
+            <label for="fname">Nombres:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <p>Sexo:</p><br>
+            <input type="radio" id="masculino" name="sexo" value="M">
+            <label for="html">Masculino</label><br>
+            <input type="radio" id="femenino" name="sexo" value="F">
+            <label for="html">Femenino</label><br><br>
+            <label for="codi">Codigo de alumno:</label><br>
+            <input type="text" id="codus" name="codus"><br><br>
+            <label for="correo">Correo:</label><br>
+            <input type="text" id="correo" name="correo"><br><br>
+            <p>Escoge tu lenguaje web favorito:</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+  </div>
+</div>
+<div class="container_sn">
+  <ul class="banner_sn">
+    <li><img src="../images/rsicon/icons8-facebook-48.png" width= "32" height="32" alt="facebook_icon">
+    <p><a href="https://www.facebook.com" target="_blank">Dame un Like<br>Facebook</a></p></li>
+
+    <li><img src="../images/rsicon/icons8-instagram-48.png" width= "32" height="32" alt="instagram_icon">
+      <p><a href="https://www.instagram.com" target="_blank">Dame un Like<br>Instagram</a></p></li>
+
+    <li><img src="../images/rsicon/icons8-linkedin-48.png" width= "32" height="32" alt="linkedin_icon">
+      <p><a href="https://www.linkedin.com/" target="_blank">Dame un Like<br>LinkedIn</a></p></li>
+    
+    <li><img src="../images/rsicon/icons8-tiktok-48.png" width= "32" height="32" alt="tiktok_icon">
+      <p><a href="https://www.tiktok.com/" target="_blank">Dame un Like<br>TikTok</a></p></li>
+
+    <li><img src="../images/rsicon/icons8-whatsapp-48.png" width= "32" height="32" alt="tiktok_icon">
+      <p><a href="https://www.whatsapp.com/" target="_blank">Atencion 24/7<br>WhatsApp</a></p></li>
+  </ul>
+
+</div>
+</body>
+</html>
